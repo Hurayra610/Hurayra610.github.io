@@ -25,3 +25,12 @@ This README provides a list of essential Git commands along with descriptions of
 ```bash
 git init
 ```
+
+### 2.**`git config`**
+
+- Set user configuration options like username and email.
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
