@@ -1,6 +1,6 @@
 # Git Command Guide
 
-This README provides a list of essential Git commands along with descriptions of what they do. Git is a powerful version control system that helps developers collaborate, track changes, and manage project history efficiently.
+This Document provides a list of essential Git commands along with descriptions of what they do. Git is a powerful version control system that helps developers collaborate, track changes, and manage project history efficiently.
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@ This README provides a list of essential Git commands along with descriptions of
 - [Tagging](#tagging)
 - [Advanced Commands](#advanced-commands)
 - [Troubleshooting](#troubleshooting)
-- [Resources](#resources)
 
 ---
 
