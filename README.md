@@ -1,20 +1,27 @@
-# GitHub Commands Guide
+# Git Command Guide
 
-Welcome to the GitHub Commands Guide! This repository contains a collection of useful GitHub commands along with explanations to help you manage repositories and collaborate with others more efficiently.
+This README provides a list of essential Git commands along with descriptions of what they do. Git is a powerful version control system that helps developers collaborate, track changes, and manage project history efficiently.
 
 ## Table of Contents
 
-- [Basic GitHub Commands](#basic-github-commands)
-- [GitHub Repository Management](#github-repository-management)
+- [Setup](#setup)
+- [Basic Git Workflow](#basic-git-workflow)
 - [Branching and Merging](#branching-and-merging)
-- [Collaboration and Pull Requests](#collaboration-and-pull-requests)
+- [Stashing](#stashing)
+- [Remote Repositories](#remote-repositories)
+- [Tagging](#tagging)
+- [Advanced Commands](#advanced-commands)
+- [Troubleshooting](#troubleshooting)
+- [Resources](#resources)
 
-## Basic GitHub Commands
+---
 
-### `git clone`
+## Setup
 
-Clones an existing repository to your local machine.
+### 1. **`git init`**
+
+- Initialize a new Git repository in the current directory.
 
 ```bash
-git clone https://github.com/username/repository.git
+git init
 ```
