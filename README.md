@@ -138,7 +138,7 @@ git remote -v                  # List all remotes
 git remote remove <name>       # Remove a remote
 ```
 
-## 14. **`git push`**
+### 14. **`git push`**
 
 - Push commits to a remote repository.
 
@@ -147,7 +147,7 @@ git push <remote> <branch>
 git push -u origin <branch>    # Set up tracking and push
 ```
 
-## 15. **`git pull`**
+### 15. **`git pull`**
 
 - Fetch and merge changes from a remote repository.
 
@@ -155,7 +155,7 @@ git push -u origin <branch>    # Set up tracking and push
 git pull <remote> <branch>
 ```
 
-## 16. **`git fetch`**
+### 16. **`git fetch`**
 
 - Download commits and files from a remote repository without merging.
 
@@ -186,7 +186,7 @@ git push origin <tag_name> # Push a tag to a remote
 git rebase <branch>
 ```
 
-## 19. **`git reset`**
+### 19. **`git reset`**
 
 - Unstage or discard changes.
 
@@ -195,7 +195,7 @@ git reset <file>          # Unstage file
 git reset --hard          # Discard all changes in working directory
 ```
 
-## 20. **`git revert`**
+### 20. **`git revert`**
 
 - Create a new commit that undoes changes from a previous commit.
 
@@ -214,7 +214,7 @@ git clean -f    # Remove untracked files
 git clean -fd   # Remove untracked files and directories
 ```
 
-## 22. **`git cherry-pick`**
+### 22. **`git cherry-pick`**
 
 - Apply specific commits from one branch into another.
 
@@ -222,7 +222,7 @@ git clean -fd   # Remove untracked files and directories
 git cherry-pick <commit_id>
 ```
 
-## 23. **`git archive`**
+### 23. **`git archive`**
 
 - Create an archive of files from a repository.
 
@@ -230,7 +230,7 @@ git cherry-pick <commit_id>
 git archive --format=zip HEAD > archive.zip
 ```
 
-## 24. **`git blame`**
+### 24. **`git blame`**
 
 - Show what revision and author last modified each line of a file.
 
@@ -238,7 +238,7 @@ git archive --format=zip HEAD > archive.zip
 git blame <file>
 ```
 
-## 25. **`git bisect`**
+### 25. **`git bisect`**
 
 - Use binary search to find the commit that introduced a bug.
 
